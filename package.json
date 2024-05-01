@@ -1,0 +1,22 @@
+{
+  "name": "ormproject",
+  "version": "1.0.0",
+  "description": "mti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc  --build --clean",
+    "start": "tsc && node ./build/index.js",
+    "watch": "tsc --watch"
+  },
+  "author": "RazaMalik",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "reflect-metadata": "^0.2.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  }
+}
